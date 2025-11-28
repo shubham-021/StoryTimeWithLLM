@@ -2,7 +2,7 @@
 
 - About use of mono repo
 
-    `Used mono repo , just for keeping frontend and backend at one place , I was just thinking about completing the core assignment instead of getting into turbo complexities`
+    `Used mono repo , just for keeping frontend and backend at one place , I was just thinking about completing the core working instead of getting into turbo complexities , i'll fix the orchestration later`
 
 ## Steps to run locally:
 
