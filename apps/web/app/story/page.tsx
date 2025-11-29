@@ -151,7 +151,7 @@ export default function StoryPage() {
     return (
         <div className="min-h-screen flex flex-col">
             <motion.header
-                className="border-b border-[var(--color-border)] bg-[var(--color-surface)]/80 backdrop-blur-sm sticky top-0 z-10"
+                className="border-b border-[var(--color-border)] bg-[var(--color-surface)] sticky top-0 z-10"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
             >
