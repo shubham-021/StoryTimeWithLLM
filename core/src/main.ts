@@ -24,6 +24,7 @@ db.$connect()
 
 app.post('/start',async (req,res) => {
     try {
+        console.log('/start')
         const {title,description,name,currentScenario,location,genre,baseTraits,userId} = req.body;
 
         if(!description || !title || !name || !currentScenario || !location || !genre || !baseTraits || !userId){
@@ -82,6 +83,7 @@ app.post('/start',async (req,res) => {
             protagonistId: protagonist_curr.id
         });
     } catch (err) {
+        console.log((err as Error).message);
         res.status(400).send({
             error: (err as Error).message
         })

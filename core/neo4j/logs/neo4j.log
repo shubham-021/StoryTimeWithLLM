@@ -1,116 +1,12 @@
-2025-11-28 18:35:21.336+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 18:35:21.342+0000 INFO  Starting...
-2025-11-28 18:35:21.692+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 18:35:22.133+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 18:35:22.915+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 18:35:23.637+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 18:35:23.975+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 18:35:23.975+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 18:35:23.977+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 18:35:23.977+0000 INFO  name: system
-2025-11-28 18:35:23.977+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 18:35:23.977+0000 INFO  Started.
-2025-11-28 18:38:06.228+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 18:38:06.231+0000 INFO  Stopping...
-2025-11-28 18:45:39.228+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 18:45:39.237+0000 INFO  Starting...
-2025-11-28 18:45:39.613+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 18:45:40.163+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 18:45:40.870+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 18:45:40.954+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 18:45:41.274+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 18:45:41.275+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 18:45:41.276+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 18:45:41.276+0000 INFO  name: system
-2025-11-28 18:45:41.276+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 18:45:41.277+0000 INFO  Started.
-2025-11-28 18:48:11.144+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 18:48:11.145+0000 INFO  Stopping...
-2025-11-28 20:05:18.414+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 20:05:18.421+0000 INFO  Starting...
-2025-11-28 20:05:18.929+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 20:05:19.562+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 20:05:20.290+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 20:05:20.752+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 20:05:21.116+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 20:05:21.117+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 20:05:21.118+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 20:05:21.118+0000 INFO  name: system
-2025-11-28 20:05:21.118+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 20:05:21.119+0000 INFO  Started.
-2025-11-28 20:06:53.631+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 20:06:53.632+0000 INFO  Stopping...
-2025-11-28 20:51:20.839+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 20:51:20.846+0000 INFO  Starting...
-2025-11-28 20:51:21.230+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 20:51:21.877+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 20:51:22.622+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 20:51:22.717+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 20:51:23.032+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 20:51:23.032+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 20:51:23.033+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 20:51:23.034+0000 INFO  name: system
-2025-11-28 20:51:23.034+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 20:51:23.034+0000 INFO  Started.
-2025-11-28 20:52:06.312+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 20:52:06.312+0000 INFO  Stopping...
-2025-11-28 21:47:35.149+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 21:47:35.156+0000 INFO  Starting...
-2025-11-28 21:47:35.538+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 21:47:36.104+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 21:47:36.848+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 21:47:37.448+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 21:47:37.845+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 21:47:37.846+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 21:47:37.847+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 21:47:37.847+0000 INFO  name: system
-2025-11-28 21:47:37.847+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 21:47:37.848+0000 INFO  Started.
-2025-11-28 21:47:39.717+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 21:47:39.719+0000 INFO  Stopping...
-2025-11-28 21:49:24.176+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 21:49:24.182+0000 INFO  Starting...
-2025-11-28 21:49:24.551+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 21:49:25.007+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 21:49:25.655+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 21:49:25.735+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 21:49:26.068+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 21:49:26.069+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 21:49:26.070+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 21:49:26.071+0000 INFO  name: system
-2025-11-28 21:49:26.071+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 21:49:26.071+0000 INFO  Started.
-2025-11-28 22:24:16.375+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 22:24:16.376+0000 INFO  Stopping...
-2025-11-28 22:24:33.278+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-28 22:24:33.284+0000 INFO  Starting...
-2025-11-28 22:24:33.629+0000 INFO  This instance is ServerId{dbf5dc8c} (dbf5dc8c-6db1-4cf6-914a-38fba7e8566d)
-2025-11-28 22:24:34.081+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-28 22:24:34.721+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-28 22:24:34.797+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-28 22:24:35.123+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-28 22:24:35.124+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-28 22:24:35.125+0000 INFO  id: 741318D34F503D7A9771BB2BC04C8C5598445B72F357E96DDE64755A3C3DBD00
-2025-11-28 22:24:35.126+0000 INFO  name: system
-2025-11-28 22:24:35.126+0000 INFO  creationDate: 2025-11-28T18:35:22.638Z
-2025-11-28 22:24:35.126+0000 INFO  Started.
-2025-11-28 23:04:35.080+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-28 23:04:35.082+0000 INFO  Stopping...
-2025-11-29 07:30:27.523+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-29 07:30:27.532+0000 INFO  Starting...
-2025-11-29 07:30:28.046+0000 INFO  This instance is ServerId{67e40d10} (67e40d10-5bce-4dda-a05d-02f53fb99ba5)
-2025-11-29 07:30:28.749+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-29 07:30:28.914+0000 INFO  Neo4j Server shutdown initiated by request
-2025-11-29 07:30:28.915+0000 INFO  Stopped.
-2025-11-29 07:30:47.678+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
-2025-11-29 07:30:47.684+0000 INFO  Starting...
-2025-11-29 07:30:48.074+0000 INFO  This instance is ServerId{67e40d10} (67e40d10-5bce-4dda-a05d-02f53fb99ba5)
-2025-11-29 07:30:48.512+0000 INFO  ======== Neo4j 2025.10.1 ========
-2025-11-29 07:30:49.418+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
-2025-11-29 07:30:50.366+0000 INFO  Bolt enabled on 0.0.0.0:7687.
-2025-11-29 07:30:50.771+0000 INFO  HTTP enabled on 0.0.0.0:7474.
-2025-11-29 07:30:50.772+0000 INFO  Remote interface available at http://localhost:7474/
-2025-11-29 07:30:50.773+0000 INFO  id: A1ACCE90DD446F62892FFAA8B3F3C26274B64D2E5B12C6F3325F699E749ED849
-2025-11-29 07:30:50.773+0000 INFO  name: system
-2025-11-29 07:30:50.773+0000 INFO  creationDate: 2025-11-29T07:30:49.074Z
-2025-11-29 07:30:50.773+0000 INFO  Started.
+2025-11-29 07:36:38.677+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2025-11-29 07:36:38.685+0000 INFO  Starting...
+2025-11-29 07:36:39.041+0000 INFO  This instance is ServerId{eef22601} (eef22601-36e6-4d3d-a0b6-53467010a751)
+2025-11-29 07:36:39.468+0000 INFO  ======== Neo4j 2025.10.1 ========
+2025-11-29 07:36:40.198+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2025-11-29 07:36:40.756+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2025-11-29 07:36:41.056+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2025-11-29 07:36:41.056+0000 INFO  Remote interface available at http://localhost:7474/
+2025-11-29 07:36:41.057+0000 INFO  id: 716AB91CD5409D50B79A8777491637EA2C06B39178BE1949AFA3C5C90D280A33
+2025-11-29 07:36:41.058+0000 INFO  name: system
+2025-11-29 07:36:41.058+0000 INFO  creationDate: 2025-11-29T07:36:39.944Z
+2025-11-29 07:36:41.058+0000 INFO  Started.
