@@ -11,11 +11,11 @@ config();
 const result = z.object({
     narration: z.string().describe("The narration continuing the given contex"),
     changes: z.object({
-        isStoryEnd: z.boolean().describe("Has story ended based on the current context, if health becomes 0 then True"),
+        isStoryEnd: z.boolean().optional().describe("Has story ended based on the current context, if health becomes 0 then True"),
         traits: z.array(z.string()).optional().describe("Changes traits , if any"),
         inventory: z.array(z.string()).optional().describe("Changes in inventory , if any"),
         health: z.number().min(0).max(100).optional().describe("Change in health"),
-        location: z.string().describe("Change in location")
+        location: z.string().optional().describe("Change in location")
     }).optional().describe("Changes in the context of protagonist")
 })
 

@@ -7,8 +7,10 @@ import { search_mem0, store_mem0 } from "./mem";
 import cors from "cors";
 
 const app = express();
+app.use(cors({
+    origin:'http://localhost:3000'
+}));
 app.use(express.json());
-app.use(cors());
 
 console.log('DATABASE_URL:', process.env.DATABASE_URL ? 'loaded' : 'missing');
 
@@ -83,7 +85,8 @@ app.post('/start',async (req,res) => {
             protagonistId: protagonist_curr.id
         });
     } catch (err) {
-        console.log((err as Error).message);
+        const error = err as Error;
+        console.log(error.message , error.cause , error.name);
         res.status(400).send({
             error: (err as Error).message
         })
@@ -95,8 +98,10 @@ app.post('/continue',async (req,res)=>{
         const { storyId, userId, userAction, NARRATIVE_REWRITE_TOKEN } = req.body;
         if (!userAction || !storyId || !userId) throw new Error("Required fields are missing");
 
+        const story_Id = parseInt(storyId);
+
         const story_detail = await db.story.findFirstOrThrow({
-            where:{id:storyId}
+            where:{id:story_Id}
         })
 
         if(story_detail.isCompleted && !NARRATIVE_REWRITE_TOKEN){
@@ -107,11 +112,11 @@ app.post('/continue',async (req,res)=>{
         }
 
         const protagonist_initial = await db.protagonist.findFirstOrThrow({
-            where: { storyId }
+            where: { storyId:story_Id }
         }) as any;
 
         const recentScenes = await db.scene.findMany({
-            where: { storyId },
+            where: { storyId:story_Id },
             orderBy: { turnNumber: 'desc' },
             take: 5
         });
@@ -128,7 +133,7 @@ app.post('/continue',async (req,res)=>{
              `FACT: ${m.metadata?.fact || m.content}` 
         );
 
-        const storyGenre = (await db.story.findUniqueOrThrow({ where: { id: storyId } })).genre;
+        const storyGenre = (await db.story.findUniqueOrThrow({ where: { id: story_Id } })).genre;
 
         const llm_res_structured = await continue_model_call({
             user_feed: userAction,
@@ -160,10 +165,10 @@ app.post('/continue',async (req,res)=>{
             };
         }
 
-        if(changes && changes.isStoryEnd){
+        if(changes?.isStoryEnd){
             await db.story.update({
                 where:{
-                    id:storyId
+                    id:story_Id
                 },
                 data:{
                     isCompleted: changes.isStoryEnd
@@ -181,12 +186,12 @@ app.post('/continue',async (req,res)=>{
             }
         });
 
-        const prevTurnNumber = await db.scene.count({ where: { storyId } });
+        const prevTurnNumber = await db.scene.count({ where: { storyId:story_Id } });
         const newTurnNumber = prevTurnNumber + 1;
         
         await db.scene.create({
             data: {
-                storyId: storyId,
+                storyId: story_Id,
                 turnNumber: newTurnNumber,
                 narrationText: narration,
                 userAction: userAction,
@@ -206,6 +211,8 @@ app.post('/continue',async (req,res)=>{
         });
 
     } catch (err) {
+        const error = err as Error;
+        console.error("\n",err);
         res.status(400).send({
             error: (err as Error).message
         })

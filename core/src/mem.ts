@@ -27,12 +27,14 @@ const config = {
             collection_name: "test",
             host: "localhost",
             port: 6333,
+            embedding_model_dims: 1536,
         }
     },
     embedder: {
         provider: "openai",
         config: {
-            model: "text-embedding-3-large"
+            model: "text-embedding-3-small",
+            embedding_dims: 1536
         }
     }
 };
