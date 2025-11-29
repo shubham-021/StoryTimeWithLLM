@@ -19,7 +19,6 @@ export function get_initial_prompt({
             2. The scene MUST start in the <Location> provided.
             3. Integrate the <Trait> into the character's internal thoughts, actions, or the description of their immediate surroundings.
             4. Generate ONLY the narrative text. Do not include any prefixes, titles, or other metadata.
-            5. Since this is the first scene, you must NOT include the **[STATE UPDATE: ...]** token. The backend has already initialized the state.
         </SystemInstruction>
 
         <InitialSetup>
